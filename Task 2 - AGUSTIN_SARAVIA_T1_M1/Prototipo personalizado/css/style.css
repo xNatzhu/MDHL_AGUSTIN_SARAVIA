@@ -1,0 +1,120 @@
+/*reset*/
+
+*{
+    margin:0;
+    padding:0;
+    border:none;
+    box-sizing: border-box;
+    outline:none;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*Menu*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #161616;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.menu-title-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-title-list h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.menu-component-list{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100%;
+}
+.menu-component a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+.menu-component-active a{
+    color: #70ad47;
+    border-bottom: 3px solid #70ad47;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    margin-left: 30px;
+}
+
+.menu-img img{
+    width: 60px;
+    height: auto;
+    margin-right:30px ;
+    margin-left:30px ;
+}
+
+/*Section one*/
+
+.section-one{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+
+.section-one-row-one img{
+    width: 500px;
+    margin-right: 40px;
+    border-radius: 20px;
+    margin-left: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-top: 50px;
+}
+.section-one-row-two{
+    margin-top: 20px;
+    width: 60%;
+}
+
+.section-one-row-two h4{
+    font-size: 22px;
+
+}
+.section-one-row-two li{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+.section-one-row-two p{
+    font-size: 20px;
+}
+
+.section-one-title{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-size: 30px;
+    justify-content: center;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #70ad47;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+span{
+    color: #70ad47;
+}
+
